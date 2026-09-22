@@ -2,17 +2,17 @@
 
 :root {
     color-scheme: dark;
-    color: #f4f7ec;
-    background: #101c25;
+    color: #ffffff;
+    background: #071a36;
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    --primary: #b7e34b;
-    --secondary: #1d3035;
-    --accent: #ffd166;
-    --muted: #b4c2bf;
-    --surface: #17272e;
-    --surface-soft: #20353a;
-    --ink: #f4f7ec;
-    --shadow: 0 24px 60px rgba(0, 0, 0, 0.24);
+    --primary: #00d9ff;
+    --secondary: #0d2a4a;
+    --accent: #7eeeff;
+    --muted: #b7c9d9;
+    --surface: #0d2542;
+    --surface-soft: #12365a;
+    --ink: #ffffff;
+    --shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -23,7 +23,7 @@ body {
     margin: 0;
     min-height: 100vh;
     line-height: 1.6;
-    background: linear-gradient(180deg, #101c25 0%, #16272e 52%, #101c25 100%);
+    background: linear-gradient(180deg, #071a36 0%, #0b2850 52%, #071a36 100%);
 }
 
 img {
@@ -39,9 +39,9 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 24px 40px;
-    background: rgba(16, 28, 37, 0.95);
+    background: rgba(7, 26, 54, 0.95);
     backdrop-filter: blur(14px);
-    border-bottom: 1px solid rgba(183, 227, 75, 0.18);
+    border-bottom: 1px solid rgba(0, 217, 255, 0.2);
 }
 
 .brand {
@@ -63,7 +63,7 @@ img {
     align-items: center;
     gap: 0.65rem;
     padding: 10px 14px;
-    border: 1px solid rgba(183, 227, 75, 0.28);
+    border: 1px solid rgba(0, 217, 255, 0.3);
     border-radius: 10px;
     background: var(--secondary);
     color: var(--ink);
@@ -92,7 +92,7 @@ img {
 }
 
 .nav-links a {
-    color: #d9e5d6;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.2s ease;
@@ -160,18 +160,18 @@ img {
 
 .primary {
     background: var(--primary);
-    color: #122027;
-    box-shadow: 0 18px 40px rgba(183, 227, 75, 0.2);
+    color: #071a36;
+    box-shadow: 0 18px 40px rgba(0, 217, 255, 0.22);
 }
 
 .secondary {
-    background: rgba(183, 227, 75, 0.12);
+    background: rgba(0, 217, 255, 0.12);
     color: var(--primary);
 }
 
 .hero-card {
-    background: linear-gradient(145deg, #1d3035 0%, #17272e 100%);
-    border: 1px solid rgba(183, 227, 75, 0.2);
+    background: linear-gradient(145deg, #0d2a4a 0%, #0d2542 100%);
+    border: 1px solid rgba(0, 217, 255, 0.22);
     border-radius: 32px;
     box-shadow: var(--shadow);
     padding: 36px;
@@ -248,7 +248,7 @@ img {
 .admission-copy,
 .admission-form {
     background: var(--surface);
-    border: 1px solid rgba(183, 227, 75, 0.14);
+    border: 1px solid rgba(0, 217, 255, 0.16);
     border-radius: 28px;
     padding: 28px;
 }
@@ -283,7 +283,7 @@ img {
     grid-template-columns: 180px 1fr;
     align-items: center;
     background: var(--surface);
-    border: 1px solid rgba(183, 227, 75, 0.14);
+    border: 1px solid rgba(0, 217, 255, 0.16);
     border-radius: 28px;
     padding: 36px;
 }
@@ -295,7 +295,7 @@ img {
     height: 140px;
     border-radius: 50%;
     background: linear-gradient(145deg, var(--primary), var(--accent));
-    color: #122027;
+    color: #071a36;
     font-size: 2.3rem;
     font-weight: 800;
     letter-spacing: 0.08em;
@@ -323,7 +323,7 @@ img {
 .teacher-details span {
     padding: 8px 14px;
     border-radius: 999px;
-    background: rgba(183, 227, 75, 0.1);
+    background: rgba(0, 217, 255, 0.1);
     color: var(--primary);
     font-size: 0.9rem;
     font-weight: 700;
@@ -354,11 +354,11 @@ img {
 .social-links a {
     padding: 14px 22px;
     border-radius: 999px;
-    border: 1px solid rgba(183, 227, 75, 0.2);
+    border: 1px solid rgba(0, 217, 255, 0.22);
     text-decoration: none;
     color: var(--primary);
     font-weight: 700;
-    background: rgba(183, 227, 75, 0.08);
+    background: rgba(0, 217, 255, 0.08);
 }
 
 .admission-form label {
@@ -373,8 +373,8 @@ img {
     margin-top: 8px;
     padding: 16px 18px;
     border-radius: 18px;
-    border: 1px solid rgba(183, 227, 75, 0.2);
-    background: #122027;
+    border: 1px solid rgba(0, 217, 255, 0.22);
+    background: #071a36;
     outline: none;
     font-size: 1rem;
     color: var(--ink);
@@ -382,7 +382,7 @@ img {
 
 .admission-form input:focus {
     border-color: var(--primary);
-    box-shadow: 0 0 0 4px rgba(183, 227, 75, 0.1);
+    box-shadow: 0 0 0 4px rgba(0, 217, 255, 0.12);
 }
 
 .admission-form .btn {
@@ -391,7 +391,7 @@ img {
 }
 
 .site-footer {
-    background: #0b151c;
+    background: #041225;
     color: var(--ink);
     padding: 40px;
 }
@@ -416,14 +416,14 @@ img {
 .footer-links a {
     color: #ffffff;
     text-decoration: none;
-    border: 1px solid rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(0, 217, 255, 0.24);
     padding: 12px 18px;
     border-radius: 999px;
     transition: background 0.2s ease;
 }
 
 .footer-links a:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 217, 255, 0.12);
 }
 
 .footer-note {
@@ -470,7 +470,7 @@ img {
 
     .nav-links a {
         padding: 0.75rem 0;
-        border-top: 1px solid rgba(183, 227, 75, 0.12);
+        border-top: 1px solid rgba(0, 217, 255, 0.14);
     }
 }
 
