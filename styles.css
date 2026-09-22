@@ -58,6 +58,33 @@ img {
     font-size: 1.8rem;
 }
 
+.menu-toggle {
+    display: none;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 10px 14px;
+    border: 1px solid rgba(183, 227, 75, 0.28);
+    border-radius: 10px;
+    background: var(--secondary);
+    color: var(--ink);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+}
+
+.menu-icon {
+    display: grid;
+    gap: 4px;
+}
+
+.menu-icon span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--primary);
+}
+
 .nav-links {
     display: flex;
     gap: 1.4rem;
@@ -416,6 +443,35 @@ img {
         align-items: flex-start;
         gap: 1rem;
     }
+
+    .site-header .brand {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+        position: absolute;
+        top: 18px;
+        right: 40px;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        padding-top: 0.5rem;
+    }
+
+    .nav-links.is-open {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 0.75rem 0;
+        border-top: 1px solid rgba(183, 227, 75, 0.12);
+    }
 }
 
 @media (max-width: 680px) {
@@ -425,6 +481,10 @@ img {
 
     .nav-links {
         gap: 0.9rem;
+    }
+
+    .menu-toggle {
+        right: 20px;
     }
 
     .about-grid,
