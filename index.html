@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saiddohnai Academy</title>
+    <title>Y_Cohdemy</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="brand">
-        <span>SAIDDOHNAI</span>
-        <strong>ACADEMY</strong>
+        <span>Y_Cohdemy</span>
       </div>
       <nav class="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#teacher-profile">Teacher Profile</a>
         <a href="#programs">Programs</a>
         <a href="#admissions">Admissions</a>
         <a href="#contact">Contact</a>
@@ -43,7 +43,7 @@
       <section id="home" class="hero">
         <div class="hero-copy">
           <p class="eyebrow">Welcome to the Future of Learning</p>
-          <h1>Saiddohnai Academy</h1>
+          <h1>Y_Cohdemy</h1>
           <p class="hero-text">
             Where excellence meets discipline, and every child grows into a
             confident leader. Discover a joyful learning home for your ward.
@@ -77,7 +77,7 @@
 
       <section id="about" class="section about-section">
         <div class="section-heading">
-          <p>About Saiddohnai Academy</p>
+          <p>About Y_Cohdemy</p>
           <h2>Building bright futures with care and confidence.</h2>
         </div>
         <div class="about-grid">
@@ -103,6 +103,31 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <section id="teacher-profile" class="section teacher-profile-section">
+        <div class="section-heading">
+          <p>Teacher Profile</p>
+          <h2>Meet the teacher behind every learner's progress.</h2>
+        </div>
+        <article class="teacher-profile-card">
+          <div class="teacher-avatar" aria-hidden="true">TP</div>
+          <div class="teacher-profile-content">
+            <p class="teacher-role">Lead Teacher at Y_Cohdemy</p>
+            <h3>Your Name</h3>
+            <p>
+              A committed educator helping learners build confidence, strong
+              foundations, and the skills they need to succeed. This profile can
+              be updated with your teaching story, subjects, and experience.
+            </p>
+            <div class="teacher-details">
+              <span>Learning support</span>
+              <span>Student mentorship</span>
+              <span>Academic growth</span>
+            </div>
+            <a class="btn secondary" href="#contact">Contact the Teacher</a>
+          </div>
+        </article>
       </section>
 
       <section id="programs" class="section programs-section">
@@ -138,8 +163,8 @@
         </div>
         <div class="newsletter-card">
           <p>
-            Read the latest newsletter for Saiddohnai Academy, including stories
-            from students, events, and important school updates.
+            Read the latest newsletter for Y_Cohdemy, including stories from
+            students, events, and important school updates.
           </p>
           <a
             class="btn secondary"
@@ -154,7 +179,7 @@
       <section id="admissions" class="section admissions-section">
         <div class="section-heading">
           <p>Admissions</p>
-          <h2>Join Saiddohnai Academy today.</h2>
+          <h2>Join Y_Cohdemy today.</h2>
         </div>
         <div class="admissions-grid">
           <div class="admission-copy">
@@ -238,7 +263,7 @@
     <footer id="contact" class="site-footer">
       <div class="footer-content">
         <div>
-          <h2>Saiddohnai Academy</h2>
+          <h2>Y_Cohdemy</h2>
           <p>
             Join a school that values excellence, discipline, and every child’s
             success.
@@ -260,7 +285,7 @@
           <a href="tel:+233207918169">+233 207 918 169</a>
         </div>
       </div>
-      <p class="footer-note">© 2026 Saiddohnai Academy. All Rights Reserved.</p>
+      <p class="footer-note">© 2026 Y_Cohdemy. All Rights Reserved.</p>
     </footer>
 
     <script>
@@ -275,9 +300,7 @@
           const applyClass = this.applyClass.value.trim();
           const phoneNumber = this.phoneNumber.value.trim();
 
-          const subject = encodeURIComponent(
-            "Admission inquiry for Saiddohnai Academy",
-          );
+          const subject = encodeURIComponent("Admission inquiry for Y_Cohdemy");
           const body = encodeURIComponent(
             `Parent Name: ${parentName}\n` +
               `Parent Email: ${parentEmail}\n` +
